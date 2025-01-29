@@ -9,6 +9,6 @@ if __name__=='__main__':
     person2.walk()
     person2.info()
 
-    a=Person('Aiturgan', 'Kanybekova',19)
-    a.walk()
-    a.info()
+    ab=Person('Aiturgan', 'Kanybekova',19)
+    ab.walk()
+    ab.info()
