@@ -16,3 +16,5 @@ The `Computer` class represents a computer with essential attributes and methods
 - `awesome()` :Displays a message saying the computer is awesome.  
 
 This class provides a simple structure for managing computer details while demonstrating key object-oriented programming concepts like constructors and methods.  
+
+![alt text](![img.png](img.png))
