@@ -17,4 +17,4 @@ The `Computer` class represents a computer with essential attributes and methods
 
 This class provides a simple structure for managing computer details while demonstrating key object-oriented programming concepts like constructors and methods.  
 
-![plot](![img_2.png](img_2.png))
+![img_3.png](Output Computer.png)
