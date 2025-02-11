@@ -12,7 +12,5 @@ if __name__=='__main__':
 
     print(f'\nCurrent Balance: {account.get_balance()}')
 
-    account + float(input('\namount of deposit: '))  # Using __add__ to deposit
-    account - float(input('\namount of withdrawal: '))  # Using __sub__ to withdraw
     print(account)
 
