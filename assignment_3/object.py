@@ -10,7 +10,7 @@ if __name__=='__main__':
 
     account.print_transaction_history()
 
-    print(f'\nCurrent Balance: {account.get_balance()}')
+    print(f'\n Current Balance: {account.get_balance()}')
 
     print(account)
 
