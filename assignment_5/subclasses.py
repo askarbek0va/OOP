@@ -7,15 +7,22 @@ class Smartphone(Device):
         self.screen_size=screen_size
         self.battery_life=battery_life
 
+    def display_info(self):
+        return f"{super().display_info()}, Screen Size: {self.screen_size} inches, Battery Life: {self.battery_life} hours"
+
+
     def __str__(self):
         return f'Smartphone:{self.name}, Price:{self.price}, Screen size:{self.screen_size} inches, Battery life: {self.battery_life} hours'
 
 
+
     def make_call(self):
-        print('Smartphone can make a call')
+        return 'Smartphone can make a call'
+
 
     def install_app(self):
-        print('Install application')
+        return 'Install application'
+
 
 
 class Laptop(Device):
@@ -25,14 +32,20 @@ class Laptop(Device):
         self.ram_size=ram_size
         self.processor_speed=processor_speed
 
+    def display_info(self):
+        return f"{super().display_info()}, RAM: {self.ram_size}GB, Processor Speed: {self.processor_speed} GHz"
+
+
     def __str__(self):
         return f'Laptop:{self.name}, Price:{self.price}, Ram size:{self.ram_size} GB, Processor speed: {self.processor_speed} Ghz'
 
+
     def run_program(self):
-        print('Run a program on the laptop')
+        return f'Run a program on the laptop'
 
     def use_keyboard(self):
-        print('You can type on the keyboard')
+        return 'You can type on the keyboard'
+
 
 
 class Tablet(Device):
@@ -41,14 +54,21 @@ class Tablet(Device):
         self.screen_resolution=screen_resolution
         self.weight=weight
 
+    def display_info(self):
+        return f"{super().display_info()}, Screen Resolution: {self.screen_resolution}, Weight: {self.weight}g"
+
+
     def __str__(self):
         return f'Tablet:{self.name}, Price:{self.price}, Screen resolution:{self.screen_resolution}, Weight: {self.weight}g'
 
+
     def browse_internet(self):
-        print('Browse the internet')
+        return 'Browse the internet'
+
 
     def use_touchscreen(self):
-        print("Use the touchscreen for navigation")
+        return "Use the touchscreen for navigation"
+
 
 
 

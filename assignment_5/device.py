@@ -8,10 +8,10 @@ class Device:
 
 
     def display_info(self):
-        print(f'Device name: {self.name}, Price: {self.price}, Stock:{self.stock}, Warranty:{self.warranty_period} months')
+        return f'Device name: {self.name}, Price: {self.price}, Stock:{self.stock}, Warranty:{self.warranty_period} months'
 
     def __str__(self):
-        return f'Device name: {self.name}, Price {self.price}, Stock:{self.stock}, Warranty:{self.warranty_period} months'
+        return f'Device name: {self.name}, Price: {self.price}, Stock:{self.stock}, Warranty:{self.warranty_period} months'
 
     def apply_discount(self,discount_percentage):
         self.price= self.price - self.price * discount_percentage/100
