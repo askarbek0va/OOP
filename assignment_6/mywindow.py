@@ -8,7 +8,6 @@ class MyWindow(QMainWindow):
         super().__init__()
         self.input1=QLineEdit(self)
         self.input2=QLineEdit(self)
-        self.label_8=QLabel(self)
         self.button1=QPushButton(self)
 
 
