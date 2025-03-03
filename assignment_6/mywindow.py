@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import QMainWindow,QLineEdit, QPushButton,QLabel,QMessageBox
+from PyQt6.QtWidgets import QMainWindow,QLineEdit, QPushButton,QMessageBox
 import os
 from PyQt6.QtWidgets import QApplication
 from PyQt6 import uic
